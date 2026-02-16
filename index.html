@@ -9,8 +9,29 @@
 <body>
   <div class="container">
     <h1>ロト7 抽選番号</h1>
-    <button id="generate-button">番号生成</button>
-    <div id="winning-numbers"></div>
+    <button id="loto7-button">番号生成</button>
+    <div id="loto7-numbers"></div>
+    <hr>
+    <h1>ロト6 抽選番号</h1>
+    <button id="loto6-button">番号生成</button>
+    <div id="loto6-numbers"></div>
+    <hr>
+    <h1>提携 문의</h1>
+    <form action="https://formspree.io/f/mqedbkyz" method="POST" class="contact-form">
+      <p>
+        <label for="name">이름:</label>
+        <input type="text" name="name" id="name" required>
+      </p>
+      <p>
+        <label for="email">이메일:</label>
+        <input type="email" name="email" id="email" required>
+      </p>
+      <p>
+        <label for="message">메시지:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+      </p>
+      <button type="submit">보내기</button>
+    </form>
   </div>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
